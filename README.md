@@ -1,4 +1,6 @@
 # TERMAK
+<p align="center"><img src="https://github.com/amiremohamadi/Termak/blob/master/Screenshot.png" width="680"></p>
+
 **Termak** (a made-up word that means **mini-terminal**) is a STUPID VTE-based terminal emulator.
 
 *It has no superiority over other terminals and is developed for personal purposes only!*
@@ -12,4 +14,3 @@
 
 ## Installing
 `gcc termak.c $(pkg-config --cflags --libs vte-2.91) -o termak`
-
